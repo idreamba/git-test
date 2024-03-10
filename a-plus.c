@@ -15,8 +15,8 @@ int main(){
 	scanf("%d", &a);
 	scanf("%d", &b);
 
-	printf("The sum of %d and %d is %d\n", a, b, add(a,b));
-	printf("The sum of %d and %d is %d\n", a, b, sub(a,b));
+	printf("The + of %d and %d is %d\n", a, b, add(a,b));
+	printf("The - of %d and %d is %d\n", a, b, sub(a,b));
 
 	return 0;
 }
