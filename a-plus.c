@@ -7,6 +7,9 @@ int sub(int a, int b){
 int add(int a, int b){
 	return a + b;
 }
+int div(int a, int b){
+	return a / b;
+}
 
 int main(){
 	int a,b;
@@ -17,6 +20,7 @@ int main(){
 
 	printf("The + of %d and %d is %d\n", a, b, add(a,b));
 	printf("The - of %d and %d is %d\n", a, b, sub(a,b));
+	printf("The / of %d and %d is %d\n", a, b, div(a,b));
 
 	return 0;
 }
