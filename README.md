@@ -16,6 +16,10 @@ int div(int a, int b){
 	return a / b;
 }
 
+int mul(int a, int b){
+	return a*b;
+}
+
 int main(){
 	int a,b;
 
@@ -24,6 +28,7 @@ int main(){
 	scanf("%d", &b);
 
 	printf("The + of %d and %d is %d\n", a, b, add(a,b));
+	printf("The * of %d and %d is %d\n", a, b, mul(a,b));
 	printf("The - of %d and %d is %d\n", a, b, sub(a,b));
 	printf("The / of %d and %d is %d\n", a, b, div(a,b));
 
