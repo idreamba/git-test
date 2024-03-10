@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "plus.c"
 #include "sub.c"
-#include "multitple.c"
-#include "division.c"
+#include "mul.c"
+#include "div.c"
 #include "len.c"
 
+#include "mul.c"
+#include "div.c"
 int main()
 {
 	int a, b;
